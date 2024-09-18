@@ -13,7 +13,7 @@ The files included are:
 ## Instructions
 
 1. Create S3 bucket
-  - bucket name: `udacity-website-amagnani`
+  - bucket name: `static-website-chi`
   - uncheck: block all public access
 
 2. Upload files and folders: index.html, img, vendor, css
@@ -28,7 +28,7 @@ The files included are:
         "Effect":"Allow",
         "Principal": "*",
         "Action":["s3:GetObject"],
-        "Resource":["arn:aws:s3:::udacity-website-amagnani/*"]
+        "Resource":["arn:aws:s3:::static-website-chi/*"]
       }
     ]
   }
@@ -45,7 +45,9 @@ The files included are:
 
 ## Website URL
 
-[http://d2j58lat2rxk09.cloudfront.net/index.html](http://d2j58lat2rxk09.cloudfront.net/index.html)
+http://static-website-chi.s3-website-us-east-1.amazonaws.com/ 
+or
+https://d1mcbyztxr7p97.cloudfront.net/index.html
 
 ## Captures
 
